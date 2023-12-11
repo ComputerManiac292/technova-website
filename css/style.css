@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+}
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #28a745;
+}
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url("banner.css");
+@import url("button.css");
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+section {
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 800px; /* Adjust as needed */
+}
+
+section h2 {
+    color: #0056b3; /* TechNova Blue */
+    margin-bottom: 15px;
+}
+
+section p {
+    line-height: 1.6;
+}
+section img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+:root {
+    --primary-color: #2C3E50; /* Deep Sophisticated Blue */
+    --accent-color: #34495E; /* Slightly Lighter Blue */
+    --text-color: #ECF0F1; /* Soft, Almost White */
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+.banner {
+    background-color: var(--technova-orange);
+    /* ... other styles ... */
+}
+
+.btn {
+    background-color: var(--technova-blue);
+    /* ... other styles ... */
+}
+
+.btn:hover {
+    background-color: darken(var(--technova-blue), 10%);
+}
+
+section {
+    background-color: white;
+    color: var(--technova-grey);
+    /* ... other styles ... */
+}
+.typeform-widget {
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden; /* If you want rounded corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
